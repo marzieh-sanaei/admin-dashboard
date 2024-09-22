@@ -47,3 +47,6 @@ body{
 .MuiDateCalendar-root{
   width: 100% !important;
 }
+.userFocus{
+  background: transparent;
+}
