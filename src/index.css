@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #2e333f;
+}
+.fonts{
+  font-family: 'Rajdhani', sans-serif;
+}
+.letterSpacing{
+  letter-spacing: 4px;
+  
+}
+.itemHover:hover{
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(50px);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.recharts-text{
+  fill: #9c9c9c;
+}
+.MuiPickersCalendarHeader-label,
+.MuiTypography-root{
+ color: #fff !important;
+}
+.css-innj4t-MuiPickersYear-yearButton{
+  background-color: #6e777f !important;
+  color: #fff !important;
+}
+.MuiButtonBase-root{
+  background-color:#6e87a557 !important;
+  color: #fff !important;
+}
+.css-23p0if-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected){
+  border: 1px solid #2faebd !important;
+  background-color: #6ea0a0 !important;
+}
+.MuiDateCalendar-root{
+  padding-top: 25px;
+}
+.MuiDateCalendar-root{
+  width: 100% !important;
 }
