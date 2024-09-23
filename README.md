@@ -1,6 +1,6 @@
 # Admin Dashboard
-![panel-admin](https://github.com/user-attachments/assets/414f0c85-f631-47bb-8ec1-ee9bc522c3f4)
-![dashboard](https://github.com/user-attachments/assets/f0a42d53-2c7b-42b0-b1f7-edaaa763a885)
+![panel-admin](https://github.com/user-attachments/assets/f01a5da3-667c-436e-8844-48109a23d223)
+![dashboard](https://github.com/user-attachments/assets/35fef777-d2a7-4c35-a41a-a48af9625d59)
 - [Demo Project](https://admin-dashboard-delta-swart.vercel.app/)
 - Developed by Marzieh Sanaei
 - Technologies Used -HTML, CSS, material UI, Rechart ,Tailwind, JavaScript, React
