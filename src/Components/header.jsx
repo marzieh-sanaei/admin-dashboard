@@ -96,8 +96,9 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="itemHover rounded-sm flex items-center ml-[3px]">
-                  <Link className=" w-full mb-[3px] flex items-center p-[3px]"
-                  to={"./../dashboards/orders"}
+                  <Link
+                    className=" w-full mb-[3px] flex items-center p-[3px]"
+                    to={"./../dashboards/orders"}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -114,8 +115,9 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="itemHover rounded-sm flex items-center ml-[3px]">
-                  <Link className=" w-full mb-[3px] flex items-center p-[3px]"
-                  to={"./../dashboards/delivery"}
+                  <Link
+                    className=" w-full mb-[3px] flex items-center p-[3px]"
+                    to={"./../dashboards/delivery"}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -261,7 +263,7 @@ export default function Header() {
       <div className="lg:w-[80%] w-[95%]">
         <div className="w-[95%] bg-[#2e333f] h-[85px] flex flex-row-reverse">
           <div className="w-[50%] flex justify-between flex-row-reverse">
-            <div className="flex items-center w-[25%]">
+            <div className="flex items-center">
               <img
                 src={marzieh}
                 width={40}
@@ -285,8 +287,7 @@ export default function Header() {
               </div>
             </div>
             <div className="flex items-center w-[50%] md:w-[30%] justify-between flex-row-reverse">
-              <div className="cursor-pointer w-[30%] flex justify-center relative">
-                <div className="rounded-[50%] bg-red-500 w-2 h-2 top-[-1px] right-[14px] absolute"></div>
+              <div className="cursor-pointer w-[30%] flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -298,9 +299,8 @@ export default function Header() {
                   <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
                 </svg>
               </div>
-              <div className="cursor-pointer flex justify-center border-r w-[30%] relative">
-                <div className="rounded-[50%] bg-green-500 w-2 h-2 top-[-1px] right-[11px] absolute"></div>
-
+              <div
+                className="cursor-pointer flex justify-center border-r w-[30%]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
