@@ -15,6 +15,9 @@ export default function Header() {
     }
     setFlag(!flag);
   }
+  function updateInp(e) {
+    setInp(e.target.value);
+  }
   function changeBgMenu(e) {
     let bg = e.target.getAttribute("data-bg");
     console.log(bg);
@@ -23,7 +26,10 @@ export default function Header() {
   }
   return (
     <>
-      <nav className="w-[20%] bg-[#2e333f] lg:flex flex-col hidden">
+      <nav
+        ref={myRef}
+        className="w-[20%] bg-[#2e333f] lg:flex flex-col duration-500 relative hidden lg:left-0"
+      >
         <div className="fixed w-[20%]">
           <span className="letterSpacing fonts uppercase text-white flex justify-center w-[70%] h-[12vh] items-center">
             dashboard
@@ -72,7 +78,10 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="itemHover rounded-sm flex items-center ml-[3px]">
-                  <Link className=" w-full mb-[3px] flex items-center p-[3px]">
+                  <Link
+                    className=" w-full mb-[3px] flex items-center p-[3px]"
+                    to={"./../dashboards/products"}
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13"
@@ -87,7 +96,9 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="itemHover rounded-sm flex items-center ml-[3px]">
-                  <Link className=" w-full mb-[3px] flex items-center p-[3px]">
+                  <Link className=" w-full mb-[3px] flex items-center p-[3px]"
+                  to={"./../dashboards/orders"}
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13"
@@ -103,7 +114,9 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="itemHover rounded-sm flex items-center ml-[3px]">
-                  <Link className=" w-full mb-[3px] flex items-center p-[3px]">
+                  <Link className=" w-full mb-[3px] flex items-center p-[3px]"
+                  to={"./../dashboards/delivery"}
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13"
@@ -119,7 +132,10 @@ export default function Header() {
                 </li>
                 <li className="uppercase text-[12px] my-[12px]">useful</li>
                 <li className="itemHover rounded-sm flex items-center">
-                  <Link className=" w-full mb-[3px] flex items-center p-[3px]">
+                  <Link
+                    className=" w-full mb-[3px] flex items-center p-[3px]"
+                    to={"./../dashboards/state"}
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13"
@@ -135,7 +151,10 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="itemHover rounded-sm flex items-center">
-                  <Link className="w-full mb-[3px] flex items-center p-[3px]">
+                  <Link
+                    className="w-full mb-[3px] flex items-center p-[3px]"
+                    to={"./../dashboards/notifications"}
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13"
@@ -151,7 +170,10 @@ export default function Header() {
                 </li>
                 <li className="uppercase text-[12px] my-[12px]">users</li>
                 <li className="itemHover rounded-sm flex items-center">
-                  <Link className="w-full mb-[3px] flex items-center p-[3px]">
+                  <Link
+                    className="w-full mb-[3px] flex items-center p-[3px]"
+                    to={"./../dashboards/profile"}
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13"
@@ -170,7 +192,10 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="itemHover rounded-sm flex items-center">
-                  <Link className="w-full mb-[3px] flex items-center p-[3px]">
+                  <Link
+                    className="w-full mb-[3px] flex items-center p-[3px]"
+                    to={"./../"}
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13"
@@ -193,7 +218,10 @@ export default function Header() {
                 </li>
                 <li className="uppercase text-[12px] my-[12px]">service</li>
                 <li className="itemHover rounded-[3px] flex items-center">
-                  <Link className="w-full mb-[3px] flex items-center p-[3px]">
+                  <Link
+                    className="w-full mb-[3px] flex items-center p-[3px]"
+                    to={"./../dashboards/setting"}
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13"

@@ -50,3 +50,9 @@ body{
 .userFocus{
   background: transparent;
 }
+.bdr{
+  border-right: 1px solid #ced4da6d;
+}
+bd{
+  border-top: 0.2px #ced4da6d;
+}
