@@ -3,7 +3,7 @@
 ![dashboard](https://github.com/user-attachments/assets/35fef777-d2a7-4c35-a41a-a48af9625d59)
 - [Demo Project](https://admin-dashboard-delta-swart.vercel.app/)
 - Developed by Marzieh Sanaei
-- Technologies Used -HTML, CSS, material UI, Rechart ,Tailwind, JavaScript, React
+- Technologies Used -material UI, Rechart ,Tailwind, JavaScript, React
 - Hooks Used: useState, useRef
 - Role -frontend
 - How to reach me : my
